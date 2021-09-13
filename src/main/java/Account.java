@@ -1,15 +1,24 @@
 
  class Account {
+	 
 
-	String name,acc_type;
-    int Acc_num,Acc_Balance;
-    Account(){
+	String name,account_type;
+	
+    int Account_num,Account_Balance;
+    
+    Account()
+    {
       
     }
-        Account(String n,int acc_num,int b,String a_t){
+        Account(String n,int account_num,int b,String a_t){
+        	
             name=n;
-            Acc_num=acc_num;
-            Acc_Balance=b;
-            acc_type=a_t;
+            
+            Account_num=account_num;
+            
+            Account_Balance=b;
+            
+            account_type=a_t;
+            
         }
-} // end class
+} 
